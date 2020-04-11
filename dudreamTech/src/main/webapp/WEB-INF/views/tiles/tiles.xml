@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions> 
+    <!-- 레이아웃을 적용하는화면-->
+    <definition name="based_definition" template="/WEB-INF/views/tiles/layouts/basedLayout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/views/tiles/views/header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/tiles/views/footer.jsp" />
+        <put-attribute name="menu" value="" />
+    </definition>
+    
+    <!-- 메인 레이아웃 -->
+    <definition name="main/*" extends="based_definition">
+        <put-attribute name="title" value="DUDREAM>메인" />
+        <put-attribute name="body" value="/WEB-INF/views/main/main.jsp" />
+    </definition>
+    
+        
+    <!-- introduce -->    
+    <definition name="introduce/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>회사소개" />
+      <put-attribute name="body" value="/WEB-INF/views/introduce/introduce.jsp" />
+    </definition>
+    
+    <!-- history -->    
+    <definition name="history/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>연혁" />
+      <put-attribute name="body" value="/WEB-INF/views/history/history.jsp" />
+    </definition>
+    
+    <!-- organi -->    
+    <definition name="organi/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>조직" />
+      <put-attribute name="body" value="/WEB-INF/views/organi/organi.jsp" />
+    </definition>
+    
+    <!-- project -->    
+    <definition name="project/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>주요사업 및 실적" />
+      <put-attribute name="body" value="/WEB-INF/views/project/project.jsp" />
+    </definition>
+    
+</tiles-definitions>

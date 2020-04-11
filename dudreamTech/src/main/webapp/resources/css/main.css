@@ -1,0 +1,67 @@
+.main_vision{
+	background-color: rgba(0, 0, 0, 0.025);
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.dtlVision{
+	padding-left: 100px;
+	padding-top: 140px;
+}
+
+#dtlWork{
+	padding-left: 100px;
+	padding-top: 140px;
+}
+
+#dtlVisionBtn{
+	border-radius: 24px;
+	font-size: 17px;
+}
+
+#dtlWorkBtn{
+	border-radius: 24px;
+	font-size: 17px;
+}
+
+
+.mainWork{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.mainRange{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	flex-direction: row;
+}
+
+.rangeImage{
+	width: 750px;
+	height: auto;
+	
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -2rem;
+}
+
+.owl-next {
+  right: -2rem;
+}

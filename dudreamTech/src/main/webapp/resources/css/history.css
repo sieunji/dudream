@@ -1,0 +1,50 @@
+.historyHead{
+	height: 100px;
+	background-image:url("/resources/images/menuheader.jpg");
+}
+
+.dudreamName{
+	font-size:25px;
+	text-align:center;
+	padding-top: 35px;
+	color: white;
+}
+
+.hist_div{
+	display: flex;
+	justify-content: center;
+}
+
+.hist_table{
+	border-top:3px solid; 
+	border-bottom:3px solid;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: auto;
+	width: 800px;
+}
+
+.table_tr{
+	border-top:2px solid; 
+	border-bottom:2px solid;
+}
+
+.table_year{
+	text-align:center;
+	font-size: 28px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.table_month{
+	text-align:center;
+	font-size: 18px;
+	padding-right: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.table_info{
+	text-align:left;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
