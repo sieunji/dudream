@@ -34,7 +34,6 @@
 		<jnuit.version>4.12</jnuit.version>
 		<downloadSources>true</downloadSources>
 		<downloadJavadocs>true</downloadJavadocs>
-
 	</properties>
 
 	<!-- Oracle jdbc driver추가 -->

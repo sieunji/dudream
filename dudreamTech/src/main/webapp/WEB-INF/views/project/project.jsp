@@ -19,7 +19,7 @@
 		</header>
 		<table class="table table-striped projectTable col-8 col-md-8 col-xl-8" >
 			<thead>
-				<tr>
+				<tr style="text-align: center;">
 					<th>구분</th>
 					<th>업체</th>
 					<th>프로젝트 구축명</th>

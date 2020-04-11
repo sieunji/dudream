@@ -27,7 +27,7 @@
         <div class="row align-items-center">
           <input type="image" src="/resources/images/logo.png" style="width: 70px; height: auto;">
           <div class="col-6 col-md-3 col-xl-4  d-block">
-            <h1 class="mb-0 site-logo"><a href="#" class="text-black h2 mb-0"><b>DUDREAMTECH</b><span class="text-success">.</span> </a></h1>
+            <h1 class="mb-0 site-logo"><a href="/home.do" class="text-black h2 mb-0"><b>DUDREAMTECH</b><span class="text-success">.</span> </a></h1>
           </div>
 
           <div class="col-xs-12 col-sm-7 main-menu">
