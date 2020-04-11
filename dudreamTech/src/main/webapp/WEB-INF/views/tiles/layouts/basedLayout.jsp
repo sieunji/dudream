@@ -10,23 +10,22 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <!-- Favicon -->
 	<link rel="shortcut icon" href="${context}/resources/images/favicon.ico" />
-    <link rel="stylesheet" href="${context}/resources/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="${context}/resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${context}/resources/css/jquery-ui.css">
-    <link rel="stylesheet" href="${context}/resources/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="${context}/resources/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="${context}/resources/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="${context}/resources/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-    <link rel="stylesheet" href="${context}/resources/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-    <link rel="stylesheet" href="${context}/resources/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="${context}/resources/css/aos.css">
-
-    <link rel="stylesheet" href="${context}/resources/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -51,19 +50,19 @@
     
     <!--   </div> .site-wrap -->
 
-  <script src="${context}/resources/js/jquery-3.3.1.min.js"></script>
-  <script src="${context}/resources/js/jquery-ui.js"></script>
-  <script src="${context}/resources/js/popper.min.js"></script>
-  <script src="${context}/resources/js/bootstrap.min.js"></script>
-  <script src="${context}/resources/js/owl.carousel.min.js"></script>
-  <script src="${context}/resources/js/jquery.countdown.min.js"></script>
-  <script src="${context}/resources/js/bootstrap-datepicker.min.js"></script>
-  <script src="${context}/resources/js/jquery.easing.1.3.js"></script>
-  <script src="${context}/resources/js/aos.js"></script>
-  <script src="${context}/resources/js/jquery.fancybox.min.js"></script>
-  <script src="${context}/resources/js/jquery.sticky.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 
-  <script src="${context}/resources/js/main.js"></script>
+  <script src="js/main.js"></script>
   	
 </body>
 </html>
