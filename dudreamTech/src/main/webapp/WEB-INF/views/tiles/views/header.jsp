@@ -42,20 +42,20 @@
                     <li><a href="/history.do" class="nav-link">연혁</a></li>
                     <li><a href="/organi.do" class="nav-link">조직</a></li>
                     <li><a href="/project.do" class="nav-link">주요사업 및 실적</a></li>
-                    <li><a href="#" class="nav-link">채용</a></li>
+                    <li><a href="/recruit.do" class="nav-link">채용</a></li>
                   </ul>
                 </li>
                 <li class="has-children">
                   <a href="#" class="nav-link">NOTICE</a>
                   <ul class="dropdown arrow-top">
-                    <li><a href="#" class="nav-link"><span class="text-success">공지사항</span></a></li>
+                    <li><a href="/notice.do" class="nav-link"><span class="text-success">공지사항</span></a></li>
                   </ul>
                 </li>
                 <li class="has-children">
                   <a href="#" class="nav-link">CONTECT US</a>
                   <ul class="dropdown arrow-top">
-                    <li><a href="#" class="nav-link"><span class="text-success">오시는길</span></a></li>
-                    <li><a href="#" class="nav-link">문의사항</a></li>
+                    <li><a href="/map.do" class="nav-link"><span class="text-success">오시는길</span></a></li>
+                    <li><a href="/qna.do" class="nav-link">문의사항</a></li>
                   </ul>
                 </li>
              </ul>

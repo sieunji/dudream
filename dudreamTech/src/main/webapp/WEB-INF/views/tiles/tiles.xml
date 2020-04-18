@@ -42,6 +42,30 @@
     <definition name="project/*" extends="based_definition">
       <put-attribute name="title" value="DUDREAM>주요사업 및 실적" />
       <put-attribute name="body" value="/WEB-INF/views/project/project.jsp" />
+    </definition>    
+    
+    <!-- recruit -->    
+    <definition name="recruit/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>채용" />
+      <put-attribute name="body" value="/WEB-INF/views/recruit/recruit.jsp" />
+    </definition>
+    
+    <!-- notice -->    
+    <definition name="notice/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>공지사항" />
+      <put-attribute name="body" value="/WEB-INF/views/notice/notice.jsp" />
+    </definition>
+    
+    <!-- map -->    
+    <definition name="map/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>오시는 길" />
+      <put-attribute name="body" value="/WEB-INF/views/map/map.jsp" />
+    </definition>
+    
+    <!-- qna -->    
+    <definition name="qna/*" extends="based_definition">
+      <put-attribute name="title" value="DUDREAM>문의사항" />
+      <put-attribute name="body" value="/WEB-INF/views/qna/qna.jsp" />
     </definition>
     
 </tiles-definitions>

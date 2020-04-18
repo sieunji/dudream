@@ -71,7 +71,7 @@
 				<div style="font-size: 14px; color: #555555; margin-top: 4px;">  &nbsp;&nbsp;&nbsp; &#8211; 인천공항, 지자체 등</div>			
 			</div>	
 			<div id="dtlWork">
-				<button onclick="" class="btn btn-success btn-lg" id="dtlWorkBtn">자세히 보기</button>
+				<button onclick="location.href='/project.do'" class="btn btn-success btn-lg" id="dtlWorkBtn">자세히 보기</button>
 			</div>
 		</div>
 		

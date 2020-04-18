@@ -22,7 +22,7 @@ public class pageController {
 	 */
 	@RequestMapping(value = "/home.do", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
-		logger.info("mainÆäÀÌÁö");
+		logger.info("mainí˜ì´ì§€ ì´ë™");
 		
 		return "main/main";
 	}
@@ -32,7 +32,7 @@ public class pageController {
 	 */
 	@RequestMapping(value = "/introduce.do", method = RequestMethod.GET)
 	public String introduce(Locale locale, Model model) {
-		logger.info("introduceÆäÀÌÁö");
+		logger.info("introduceí˜ì´ì§€ ì´ë™");
 		
 		return "introduce/introduce";
 	}
@@ -42,7 +42,7 @@ public class pageController {
 	 */
 	@RequestMapping(value = "/history.do", method = RequestMethod.GET)
 	public String history(Locale locale, Model model) {
-		logger.info("historyÆäÀÌÁö");
+		logger.info("historyí˜ì´ì§€ ì´ë™");
 		
 		return "history/history";
 	}
@@ -52,7 +52,7 @@ public class pageController {
 	 */
 	@RequestMapping(value = "/organi.do", method = RequestMethod.GET)
 	public String organi(Locale locale, Model model) {
-		logger.info("organiÆäÀÌÁö");
+		logger.info("organií˜ì´ì§€ ì´ë™");
 		
 		return "organi/organi";
 	}
@@ -62,10 +62,49 @@ public class pageController {
 	 */
 	@RequestMapping(value = "/project.do", method = RequestMethod.GET)
 	public String project(Locale locale, Model model) {
-		logger.info("projectÆäÀÌÁö");
+		logger.info("projectí˜ì´ì§€ ì´ë™");
 		
 		return "project/project";
 	}
 	
+	/**
+	 * Simply selects the home view to render by returning its name.
+	 */
+	@RequestMapping(value = "/recruit.do", method = RequestMethod.GET)
+	public String recruit(Locale locale, Model model) {
+		logger.info("recruití˜ì´ì§€ ì´ë™");
+		
+		return "recruit/recruit";
+	}
+	
+	/**
+	 * Simply selects the home view to render by returning its name.
+	 */
+	@RequestMapping(value = "/notice.do", method = RequestMethod.GET)
+	public String notice(Locale locale, Model model) {
+		logger.info("noticeí˜ì´ì§€ ì´ë™");
+		
+		return "notice/notice";
+	}
+	
+	/**
+	 * Simply selects the home view to render by returning its name.
+	 */
+	@RequestMapping(value = "/map.do", method = RequestMethod.GET)
+	public String map(Locale locale, Model model) {
+		logger.info("mapí˜ì´ì§€ ì´ë™");
+		
+		return "map/map";
+	}
+	
+	/**
+	 * Simply selects the home view to render by returning its name.
+	 */
+	@RequestMapping(value = "/qna.do", method = RequestMethod.GET)
+	public String qna(Locale locale, Model model) {
+		logger.info("qnaí˜ì´ì§€ ì´ë™");
+		
+		return "qna/qna";
+	}
 	
 }
