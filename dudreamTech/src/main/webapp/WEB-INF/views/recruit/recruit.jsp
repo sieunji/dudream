@@ -8,12 +8,12 @@
 <head>
 <meta charset="UTF-8">
 <title>두드림테크</title>
-<link href="${context}/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/recruit.css">
 </head>
 	<body>
 		<header>
-			<div class="historyHead">
+			<div class="historyHead" style="background-image:${context}/images/menuheader.jpg; height: 100px;">
 				<div class="dudreamName"><b>채용</b></div>
 			</div>
 		</header>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="recruithead">
 				<span class="recruitSpan" >채용절차</span>
-				<span class="recruitBody"><img class="recruitImage" src="${context}/resources/images/recruit.png"></span>
+				<span class="recruitBody"><img class="recruitImage" src="${context}/images/recruit.png"></span>
 			</div>
 			<div class="recruithead">
 				<span class="recruitSpan">접수방법</span>
@@ -63,8 +63,8 @@
 		
 
 	<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
-	<script src="${context}/resources/js/jquery-1.12.4.js"></script>
+	<script src="${context}/js/jquery-1.12.4.js"></script>
 	<!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
-    <script src="${context}/resources/js/bootstrap.min.js"></script>
+    <script src="${context}/js/bootstrap.min.js"></script>
 	</body>
 </html>

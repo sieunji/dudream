@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>두드림테크</title>
-<link href="${context}/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
 </head>
 	<body>
@@ -19,10 +19,10 @@
 		  </ol>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="${context}/resources/images/sample1.jpg" alt="First slide">
+		      <img class="d-block w-100" src="${context}/images/sample1.jpg" alt="First slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="${context}/resources/images/sample2.jpg" alt="Second slide">
+		      <img class="d-block w-100" src="${context}/images/sample2.jpg" alt="Second slide">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -51,7 +51,7 @@
 		<div class="mainRange">
 			<div class="col-6 col-md-4 col-xl-4">
 				<div style="font-size: 25px; color: #88DC32;"><b>사업 범위</b></div>
-				<div><img class="rangeImage" src="${context}/resources/images/range.jpg"></div>
+				<div><img class="rangeImage" src="${context}/images/range.jpg"></div>
 			</div>	
 			<div class="dtlVision">
 				<button class="btn btn-success btn-lg" id="dtlVisionBtn">자세히 보기</button>
@@ -78,64 +78,64 @@
 		<div class="mainWork">
 			<div class="owl-carousel " style="width:800px">
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/gsretail.jpg">
+			    	<img src="${context}/images/companylogo/gsretail.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/heungkuk.png">
+			    	<img src="${context}/images/companylogo/heungkuk.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/himart.jpg">
+			    	<img src="${context}/images/companylogo/himart.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/homeplus.jpg">
+			    	<img src="${context}/images/companylogo/homeplus.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/hyundai.jpg">
+			    	<img src="${context}/images/companylogo/hyundai.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/ictlogo150px.png">
+			    	<img src="${context}/images/companylogo/ictlogo150px.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/kbbank.jpg">
+			    	<img src="${context}/images/companylogo/kbbank.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/lffashon.jpg">
+			    	<img src="${context}/images/companylogo/lffashon.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/lgchemical.jpg">
+			    	<img src="${context}/images/companylogo/lgchemical.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/lgCNS.jpg">
+			    	<img src="${context}/images/companylogo/lgCNS.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/lguplus.png">
+			    	<img src="${context}/images/companylogo/lguplus.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/lottehotel.png">
+			    	<img src="${context}/images/companylogo/lottehotel.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/nogshim.jpg">
+			    	<img src="${context}/images/companylogo/nogshim.jpg">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/ourhome.png">
+			    	<img src="${context}/images/companylogo/ourhome.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/samsung.png">
+			    	<img src="${context}/images/companylogo/samsung.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/shinancard.png">
+			    	<img src="${context}/images/companylogo/shinancard.png">
 			    </div>
 			    <div class="item" style="width:100px">
-			    	<img src="${context}/resources/images/companylogo/shinsegae.png" >
+			    	<img src="${context}/images/companylogo/shinsegae.png" >
 			    </div>
 			</div>
 		</div>
 	<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
-	<script src="${context}/resources/js/jquery-1.12.4.js"></script>
+	<script src="${context}/js/jquery-1.12.4.js"></script>
 	<!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
-    <script src="${context}/resources/js/bootstrap.min.js"></script>
-    <script src="${context}/resources/js/owl.carousel.js"></script>
-    <script src="${context}/resources/js/owl.carousel.min.js"></script>
+    <script src="${context}/js/bootstrap.min.js"></script>
+    <script src="${context}/js/owl.carousel.js"></script>
+    <script src="${context}/js/owl.carousel.min.js"></script>
     <script type="text/javascript">
 	    
 	    $('.owl-carousel').owlCarousel({
@@ -147,7 +147,7 @@
 	        autoplayTimeout:2000,
 	        nav:true,
 	        navClass:['owl-prev','owl-next'],
-	        navText:["<img src='/resources/images/prevbutton.png' style='width: 10px; height:14px; '>","<img src='/resources/images/nextbutton.png' style='width: 10px; height:14px;'> "]
+	        navText:["<img src='${context}/images/prevbutton.png' style='width: 10px; height:14px; '>","<img src='${context}/images/nextbutton.png' style='width: 10px; height:14px;'> "]
 	    })
     </script>
 	</body>

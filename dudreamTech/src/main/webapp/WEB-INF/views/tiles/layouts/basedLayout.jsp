@@ -9,7 +9,7 @@
 <title><tiles:getAsString name="title"/></title>
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <!-- Favicon -->
-	<link rel="shortcut icon" href="${context}/resources/images/favicon.ico" />
+	<link rel="shortcut icon" href="${context}/images/favicon.ico" />
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
